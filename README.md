@@ -1,5 +1,7 @@
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd-M1
 # IAPR-1- Module 1 - FoC
+## Aswitha P
+## Reg No: 212224020004
 ## 1. Implementation of basic C programs using Literals,Consonants, Variables, Data types.
 ## 2. Implementation of different categories of operators.
 # Ex.No:1
@@ -30,23 +32,27 @@ To build a C program that prints integer, float,character, and string literals o
 #include <stdio.h>
 
 int main() {
-    // Step 3: Declare and initialize variables
-    int num = 10;           // integer
-    float pi = 3.14f;       // float
-    double gravity = 9.81;  // double
-    char grade = 'A';       // character
+    // Integer literal
+    printf("Integer literal: %d\n", 10);
+    printf("Size of integer literal: %zu bytes\n\n", sizeof(10));
 
-    // Step 4: Display values using printf()
-    printf("Integer value: %d\n", num);
-    printf("Float value: %f\n", pi);
-    printf("Double value: %lf\n", gravity);
-    printf("Character value: %c\n", grade);
+    // Float literal
+    printf("Float literal: %f\n", 3.14f);
+    printf("Size of float literal: %zu bytes\n\n", sizeof(3.14f));
+
+    // Character literal
+    printf("Character literal: %c\n", 'A');
+    printf("Size of character literal: %zu bytes\n\n", sizeof('A'));
+
+    // String literal
+    printf("String literal: %s\n", "Hello C");
+    printf("Size of string literal: %zu bytes\n\n", sizeof("Hello C"));
 
     return 0;
 }
 ```
 # Output:
-<img width="1352" height="753" alt="image" src="https://github.com/user-attachments/assets/74ad4e94-820e-48f8-9cc3-57cbdfbf2bfc" />
+<img width="1608" height="770" alt="image" src="https://github.com/user-attachments/assets/84a59633-e10c-4153-9b18-9e7f63c1ac8d" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -95,8 +101,6 @@ int main() {
     return 0;
 }
 ```
-
-
 # Output:
 <img width="1354" height="749" alt="image" src="https://github.com/user-attachments/assets/10ec5fae-8745-4318-bd84-be450b5bfd2e" />
 
@@ -145,8 +149,7 @@ int main() {
 # Output:
 <img width="1352" height="753" alt="image" src="https://github.com/user-attachments/assets/74ad4e94-820e-48f8-9cc3-57cbdfbf2bfc" />
 
-# Result:
-thus, we got the output.
+# Result: 
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
